@@ -20,8 +20,6 @@ def post_basic_info():
         "endpoint_url": "https://backend-test-pfm3.onrender.com",
         "github_url": "https://github.com/khairatAA/backend_tutorials",
         }
-    
-    print (my_info)
 
     response = requests.post('https://backend-test-pfm3.onrender.com/data', json=my_info)
     return Response(response.content, content_type='application/json')
