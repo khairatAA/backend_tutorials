@@ -1,3 +1,3 @@
 # BACKEND TUTORIALS
 
-## The repo contains practise codes for Backend or server side configurations
+## The repo contains practice codes for Backend or server side configurations
