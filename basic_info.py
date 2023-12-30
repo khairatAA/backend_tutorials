@@ -17,7 +17,7 @@ def post_basic_info():
     """POST basic information"""
     my_info = {
         "name": "Khairat Adesina",
-        "endpoint_url": "https://backend-test-pfm3.onrender.com",
+        "endpoint_url": "https://backend-ninja-tutorials.onrender.com/",
         "github_url": "https://github.com/khairatAA/backend_tutorials",
         }
 
@@ -26,4 +26,4 @@ def post_basic_info():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
